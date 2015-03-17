@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="96dp"
+        android:text="New Account"
+        android:id="@+id/btn_new_account"
+        android:textStyle="bold"
+        android:textSize="36dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="96dp"
+        android:text="Activate Device"
+        android:id="@+id/btn_activate"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/btn_new_account"
+        android:layout_alignParentEnd="true"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_logo"
+        android:src="@drawable/sirius_320"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Welcome to SiriusGPS Fleet Management system.  Please select the New Account Button for new customers or Activate Device Button for existing customers or employees of existing customers."
+        android:id="@+id/textView"
+        android:layout_below="@+id/space2"
+        android:layout_alignParentEnd="true" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_below="@+id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space2" />
+
+</RelativeLayout>

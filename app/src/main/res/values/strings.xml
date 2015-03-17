@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SiriusGPS Fleet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="loading">Loading...</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_activity_setup_account">SetupAccountActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_account">New Account</string>
+    <string name="verify_account">Verify Account</string>
+</resources>
